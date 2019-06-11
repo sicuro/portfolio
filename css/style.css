@@ -18,7 +18,7 @@ header {
 }
 .bloco-inicial {
     background: #123638;
-  background: url(/images/bg.jpg) no-repeat center center #123638 ; 
+  background: url(../images/bg.jpg) no-repeat center center #123638 ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

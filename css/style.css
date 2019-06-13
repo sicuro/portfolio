@@ -2,6 +2,10 @@ body {
     font-family: 'Poppins', sans-serif;
     background: #f0f0f0;
 }
+a, a:hover{
+    text-decoration: none !important;
+    color: currentColor;
+}
 .margin-top-30 {
     margin-top:30px;
 }
@@ -310,4 +314,72 @@ footer h2 {
     100% {
         opacity: 100;
     }
+}
+
+/* Sobre */
+.bloco-sobre {
+    background: #123638;
+  background: url(../images/sobre-01.jpg) no-repeat center center #123638 ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-color: rgba(248, 247, 216, 0.7);
+
+  background-size: cover;
+    z-index: -1;
+        min-height: 540px;
+
+}
+
+.sobre-container {
+    background: #ffffff;
+    margin-bottom: 135px;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.16);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.sobre-container h2 {
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.sobre-container ol {
+    padding: 0;
+    counter-reset: item;
+    margin-left: 10px;
+}
+ 
+.sobre-container ol>li {
+  margin-bottom: 10px;
+  padding:0 0 0 2em;
+  text-indent:-2em;
+  list-style-type:none;
+  counter-increment:item;
+  font-size: 18px;
+}
+ 
+.sobre-container ol>li:before {
+  display:inline-block;
+  width:1.5em;
+  padding-right:0.5em;
+  font-weight:bold;
+  text-align:right;
+  content:counter(item) ".";
+}
+.box-curriculo {
+    background: #ffffff;
+    border-radius: 3px;
+    padding-top: 20px;
+    top: -60px;
+    padding-bottom: 20px;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.16);
+}
+.txt-curriculo {
+    font-size: 18px !important;
+    padding-top: 15px !important;
+    padding-bottom: 0px !important;
+    font-weight: bold;
 }

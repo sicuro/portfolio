@@ -1,13 +1,7 @@
 import React from 'react'
 const Menu = props => {
 
-    constructor(props){
-    super(props);
-}
 
-getInitialState(){
-  return {"showHideSidenav":"hidden"};
-}
     return(
         <div>
     {/* menu */}
